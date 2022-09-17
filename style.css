@@ -1,0 +1,243 @@
+body{
+   background-color: #e7c6ff;
+}
+.heading{
+    margin-top: 200px;
+    text-align: center;
+}
+.sun{
+    width:200px;
+    height:200px;
+}
+.sun{
+    position:relative;
+    top: 70px;
+    left: 50px;
+}
+.cloud1{
+    width:250px;
+    height: 250px;
+    position:absolute;
+    top:210px;
+    left:30px;
+}
+.bird1{
+    width:70px;
+    height: 70px;
+    position: absolute;
+    top: 270px;
+    left:270px;
+}
+.bird2{
+    width:60px;
+    height:60px;
+    position: absolute;
+    top:170px;
+    right:60px;
+
+}
+.cloud2{
+    width:200px;
+    height:200px;
+    position:absolute;
+    top: 100px;
+    right: 100px;
+}
+h1{
+    font-size: 80px;
+    font-family: 'League Spartan', sans-serif;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    color: #212529;
+}
+.tag{
+    font-size: 30px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 200;
+    position: relative;
+    bottom: 30px;
+    color:#343a40;
+}
+.face{
+    position: relative;
+    top: 30px;
+    width: 100px;
+}
+.pic{
+    text-align: center;
+}
+.picc{
+    width: 1000px;
+}
+.card{
+    text-align: center;
+    border-radius: 20px;
+    background-color:#c6dbfc;
+    width: 800px;
+    position: relative;
+    top: 150px;
+    left: 60px;
+    border-top-style: solid ;
+    border-top-width: 60px;
+    border-top-color: #bbd4fc;
+}
+.card{
+    display:block;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+.cardin{
+    
+    font-size: 20px;
+    padding: 8px;
+}
+.flex{
+    display:flex;
+    justify-content: space-around;
+}
+.happy{
+    width:100px;
+    height:100px;
+    padding: 20px;
+    padding-right: 30px;
+    padding-top:50px;
+    transition: 0.3s;
+}
+.happy:hover{
+    transform: translate(0,-10px);
+}
+.bio{
+    padding: 12px;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+    line-height: 30px;
+}
+.biohead{
+    font-size: 40px;
+    font-family: 'Questrial', sans-serif;
+    position: absolute;
+    bottom: 198px; 
+    left: 50px;
+}
+.beach-chair{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 100px;
+}
+.music{
+    width: 140px;
+    height:140px;
+    position: relative;
+    left: 100px;
+    top: 430px;
+
+}
+.card2{
+    text-align: left;
+    border-radius: 20px;
+    background-color:#c6dbfc;
+    border-top-style: solid ;
+    border-top-width: 60px;
+    border-top-color: #bbd4fc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card2{
+    width: 470px;
+    display: block;
+    justify-content: right;
+    font-family: 'Questrial', sans-serif;
+    line-height: 30px;
+}
+.card2{
+    position: relative;
+    top: 250px;
+    left: 840px;
+}
+.cardhead2{
+    font-size: 40px;
+    position: absolute;
+    bottom:175px; 
+    left: 50px;  
+}
+.skillsimg{
+    width: 100px;
+    height:100px;
+    padding-top: 18px;
+    transition: 0.3s
+}
+.skillsimg:hover{
+    transform: translate(0, -10px);
+}
+.skills{
+    padding:20px;
+    font-size:20px;
+    display:flex;
+    justify-content: space-around;
+}
+.seapic{
+    width:500px;
+    height: 500px;
+    padding-top: 400px;
+    display:block;
+    margin: 0px auto 0px auto;
+}
+.quote{
+    margin: 0px auto 0px auto;
+    padding-top: 80px;
+    text-align:center;
+    font-size: 70px;
+    font-family: 'Satisfy', cursive;
+}
+.lastp{
+    display: block;
+    text-align: center;
+    font-size:40px;
+    font-family: 'Questrial', sans-serif;
+}
+.social-media{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    border: 0px solid;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin:0 30px;
+    transition: 0.3s;
+}
+.btn{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.btn:hover{
+    transform: translate(0px,-8px);
+
+}
+.fb{
+    background-color: #4267B2;
+}
+.insta{
+    background-color: #E1306C;
+}
+.twitter{
+    background-color: #1DA1F2;
+}
+.bottom{
+    margin-top:10px;
+    padding-bottom:30px;
+}
+.hshake{
+    width:150px;
+    height:150px;
+    margin: 0px auto 0px auto;
+    display: block;
+    padding-top:100px;
+    
+}
